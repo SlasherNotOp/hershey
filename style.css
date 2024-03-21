@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"TT Norms Pro", "sans-serif";
+}
+body{
+    width: 100%;
+}
+
+.heading_color_class{
+    color: #3f000b;
+}
+
+.firstNav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding-right: auto;
+    
+    
+}
+
+.firstNav li{
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+.firstNav li a{
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    padding-left: 5rem;
+    
+    padding-bottom: 1rem;
+
+   box-shadow:rgba(0, 0, 0, 0.3) 0px 0px 7.52px 0.48px;
+}
+nav .nav_logo{
+    width: 25%;
+}
+
+nav img{
+    width: 60%;
+    
+}
+nav .firstdiv{
+    width: 75%;
+    
+
+
+}
+nav div .secondNav{
+    display: flex;
+    list-style: none;
+    background-color: #3f000b;
+    height: 3rem;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+nav .secondNav li{
+    padding: 1.7rem;
+    
+}
+nav .secondNav li a{
+    text-decoration: none;
+    color: #feebd0;
+    font-weight: bolder;
+}
+
+main #hero_section{
+    display: flex;
+    margin-top: 8rem;
+    width: 100%;
+    height: 70vh;
+    
+}
+main #hero_section .left{
+    width: 50%;
+    background-color: #feebd0;
+    display: flex;
+    justify-content: center;
+
+}
+
+main #hero_section .left .left_content{
+    margin: 2rem;
+}
+
+main #hero_section .left .left_content h1{
+    font-size: 3.7rem;
+    margin: 2rem;
+    
+}
+
+
+main #hero_section .left .left_content p{
+    font-size: 1.5rem;
+     margin: 2rem;
+    
+}
+main #hero_section .left .left_content button{
+    margin: 0 2rem ;
+    padding: 1rem;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    background-color: #3f000b;
+    color: #feebd0;
+    
+}
+
+main #hero_section .right{    
+    height: 100%;
+    width: 50%;
+}
+main #hero_section .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#yellow{
+    display: flex;
+    background-image: url(assets/background-green-yellow-kisses.png);
+    position: relative;
+
+}
+ 
+
+#yellow img{
+    width: 70%;
+    height: 40%;
+    padding: 6rem 0;
+    padding-left: 12rem;
+    height: 100%;
+}
+
+#yellow .yellow_content{
+    width: 25%;
+    background-color: #fff;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+
+}
+#yellow .yellow_content h1{
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+
+#yellow .yellow_content p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+#yellow .yellow_content button{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    background-color: #3f000b;
+    color: #feebd0;
+    font-weight: bold;
+   
+
+}
