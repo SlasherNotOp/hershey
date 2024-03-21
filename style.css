@@ -181,6 +181,40 @@ main #hero_section .right img{
     background-color: #3f000b;
     color: #feebd0;
     font-weight: bold;
-   
+}
 
+#third_section{
+    width: 100%;
+    background-image: url(assets/reeses_cup-dark\ \(1\).png);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#third_section .third_section_content{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+
+#third_section .third_section_content .third_section_card{
+    width: 30%;
+    margin: 1rem;
+}
+
+#third_section .third_section_content .third_section_card .third_section_card_img {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 4rem;
+    
+}
+.third_section_card_img img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
