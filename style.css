@@ -280,7 +280,7 @@ margin: 1rem;
 }
 
 #fourth_section .fourth_section_content button{
-    padding: 1rem;
+    padding: 1rem 6rem;
     margin: 1rem;
     font-size: 1.2rem;
     border-radius: 50px;
@@ -288,3 +288,38 @@ margin: 1rem;
     color: #feebd0;
     font-weight: bold;
 }
+
+#fifth_section{
+    height: 80vh;
+    width: 100%;
+    background-image: url(assets/fifth_section_svg.svg);
+    background-size: cover;
+}
+
+#fifth_section .fifth_section_img{
+    border: 2px solid red;
+    width: 60%;
+    position: relative;
+    left: 10%;
+    margin: 5rem 0;
+}
+
+#fifth_section .fifth_section_img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#fifth_section .fifth_section_content{
+
+    width: 42%;
+    background-color: #fff;
+    position: absolute;
+    top: 10%;
+    right: -35%;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
